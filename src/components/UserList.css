@@ -1,0 +1,41 @@
+.Bcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    box-shadow: 0 14px 28px rgba(169, 72, 72, 0.25),
+    0 10px 10px rgba(159, 62, 62, 0.22);
+    background: rgb(193, 191, 191);
+    
+}
+.card:hover{
+        transform: translateY(-1rem);
+        border:5px solid #23abe1;
+}
+li,ul{
+    background-color: rgb(151, 147, 147);
+    list-style-type:none;
+}
+h3{
+    background-color:rgb(135, 131, 131);
+}
+
+.name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    list-style-type: none;
+    color:#046C95;
+}
+.names{
+    margin-top: 18px;
+    line-height: 30px;
+}
+
+.iconU{
+    margin-left: 25px;
+    margin-right: 15px;
+    background-color:white
+}
